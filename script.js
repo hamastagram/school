@@ -44,9 +44,9 @@ class Student{
 
 const school = new School();
 
-school.addStudent(new Student("Muhammad", "Najat", "forth grade"));// passing instance of 
+school.addStudent(new Student("Muhammad", "Najat", "forth grade"));// passing instance of Student
 
-school.addTeacher(new Teacher("Ahmad", "mutasam", "forth grade"));
+school.addTeacher(new Teacher("Ahmad", "mutasam", "forth grade")); // passing instance of Teacher
 
 
 
