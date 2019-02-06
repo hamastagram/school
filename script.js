@@ -6,7 +6,7 @@ class School{
     }
 
     addTeacher(teacher){
-        this.teachers.push(teacher);
+        this.teachers.push(teacher); // pushing an (object instance of Teacher) inside array of teachers
     }
     fireTeacher(index){
         this.teachers.splice(index, 1);
@@ -44,7 +44,7 @@ class Student{
 
 const school = new School();
 
-school.addStudent(new Student("Muhammad", "Najat", "forth grade"));
+school.addStudent(new Student("Muhammad", "Najat", "forth grade"));// passing instance of 
 
 school.addTeacher(new Teacher("Ahmad", "mutasam", "forth grade"));
 
